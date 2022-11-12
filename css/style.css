@@ -1,0 +1,280 @@
+
+/* General Style -------------------------------------------------------- */
+
+body{
+    font-family: fantasy;
+    font-size: 1.2em;
+
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    align-content: center;
+
+    background-image: url('../images/f.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    padding-bottom: 70px;
+    font-size: 2.5em;
+    color: #FFF;
+}
+
+h3{
+    font-size: 0.8em;
+    margin: 25px;
+    color: #502d3e;
+}
+
+.step{
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.nobr{
+    white-space: nowrap;
+}
+
+.primary_word{
+    color: #79dd36;    
+    font-weight: 800;
+}
+
+.center{
+    max-width: 500px;
+    margin: auto;
+}
+
+.text_style{
+    color: #FFF;
+    font-size: 1.5em;
+    padding-bottom: 70px;
+}
+
+.container{
+    background: rgb(47, 51, 72);
+    padding: 25px;
+    border-spacing: 0.1px;
+    border-radius: 25px;
+}
+
+
+
+/* Table Style -------------------------------------------------------- */
+
+table{
+    padding: 15px;
+
+    border-spacing: 0.1px;
+    border-radius: 25px;
+    border-color: #79dd36;
+
+    background-color: rgb(47, 51, 72);
+}
+
+.btn_table{
+    padding: 10px;
+
+    background: rgb(47, 51, 72);
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 14px;
+    text-align: center;
+}
+
+th{
+    font-size: 1.2em;
+}
+
+td{
+    font-size: 0.9em;
+}
+
+th, td {
+    padding: 25px;
+    text-align: center;
+ }
+
+ .feature_name{
+    color: #FFF;
+    font-size: 1em;
+ }
+
+ #plan_1{
+    background-color: #4cc9f0;
+    color: #fff;
+ }
+
+ #plan_2{
+    background-color: #79dd36;
+    color: #fff;
+ }
+
+ #plan_3{
+    background-color: #f72585;
+    color: #fff;
+ }
+ 
+ .col_1, #plan_1{
+    border: 3px solid #4cc9f0;
+    color: #FFF;
+ }
+
+ .col_2, #plan_2{
+    border: 3px solid #79dd36;
+    color: #FFF;
+ }
+
+ .col_3, #plan_3{
+    border: 3px solid #f72585;
+    color: #FFF;
+ }
+
+ #btn_plan_1, #btn_plan_2, #btn_plan_3{
+    border: 3px solid #FFF;
+    transition-duration: 0.4s;
+ }
+  
+#btn_plan_1:hover {
+    background-color:  #4cc9f0;
+    color: white;
+}
+
+#btn_plan_2:hover {
+    background-color:  #79dd36;
+    color: white;
+}
+
+#btn_plan_3:hover {
+    background-color: #f72585;
+    color: white;
+}
+
+
+
+/* Pricing Options Style -------------------------------------------------------- */
+
+.options_container {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    padding-top: 25px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.btn{
+    border: 0px;
+
+    background: rgb(93, 99, 132);
+    margin: 25px;
+    width: 210px;
+    height: 75px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 14px;
+    text-align: center;
+
+    font-size: 0.65em;
+    font-family: fantasy;
+
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    background-color: #a26782;
+    color: white;
+}
+
+#best_value{
+    padding-left: 200px;
+}
+
+
+
+/* Form Style -------------------------------------------------------- */
+
+.form_body {
+    height: 500px;
+    padding: 30px 30px 20px;
+}
+
+.credit_card {
+    width: 500px;
+    height: 440px;
+    margin: 25px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    background-color: #fff;
+}
+ 
+.card_num,
+.card_cvv,
+.date_card,
+.card_name {
+    font-size: 0.65em;
+    line-height: 40px;
+    color: #502d3e;
+
+    width: 100%;
+    margin-bottom: 25px;
+    padding-left: 75px; 
+}
+
+.month select,
+.year select {
+    font-size: 0.65em;
+    line-height: 40px;
+    color: #502d3e;
+
+    opacity: .7;
+    color: #86939e;
+
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 6px;
+    background-position: 85% 50%;
+}
+
+.btn_submit{
+    border: 0px;
+
+    background: #a73468;
+    margin: 10px;
+    margin-left: 300px;
+    width: 145px;
+    height: 50px;
+
+    color: white;
+    font-weight: bold;
+    border-radius: 14px;
+    text-align: center;
+
+    font-size: 0.65em;
+    font-family: fantasy;
+
+    transition-duration: 0.4s;
+}
+
+.btn_submit:hover{
+    background-color: #4cc9f0;
+    color: white;
+}
+
+ .emoji{
+    text-align: center;
+    font-size: 50px;
+ }
+
+ 

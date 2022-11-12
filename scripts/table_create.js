@@ -2,7 +2,7 @@
 import {plansList} from '../data/data.js'
 
 function navigateToBillingCyclePage(planNumber){
-    document.location.href = '/pages/billing_cycle.html';
+    document.location.href = 'pages/billing_cycle.html';
     sessionStorage.setItem('planName', plansList[planNumber].name.toString());
     sessionStorage.setItem('planMonthlySubPrice', plansList[planNumber].monthlySubPrice.toString());
     sessionStorage.setItem('planYearlySubPrice', plansList[planNumber].yearlySubPrice.toString());
